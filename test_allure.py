@@ -11,3 +11,5 @@ def test_addition():
 
     with allure.step("Verify the result is 2"):
         assert result == 2
+
+print("Hello World Testing")
