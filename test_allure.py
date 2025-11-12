@@ -19,3 +19,13 @@ for i in range(5):
 
 for i in range(5):
     print(f"This is iteration number {i * 2}")
+
+# Bugged Python loop
+numbers = [1, 2, 3, 4, 5]
+i = 0
+
+while i < len(numbers):
+    print(numbers[i])
+    if numbers[i] == 3:
+        numbers.pop(i)  # ⚠️ Modifying the list while iterating!
+    i += 1
