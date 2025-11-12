@@ -16,3 +16,6 @@ print("Hello World Testing")
 
 for i in range(5):
     print(f"This is iteration number {i + 1}")
+
+for i in range(5):
+    print(f"This is iteration number {i * 2}")
